@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages={"com.codigoquatro.vendas.controller",
-"com.codigoquatro.vendas.repository","com.codigoquatro.vendas.service"
+"com.codigoquatro.vendas.repository","com.codigoquatro.vendas.service","com.codigoquatro.vendas.exececao"
 })
 public class VendasApplication {
 
